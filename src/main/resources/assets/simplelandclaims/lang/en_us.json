@@ -1,0 +1,13 @@
+{
+  "itemGroup.simplelandclaims": "Example Mod Tab",
+  "block.simplelandclaims.example_block": "Example Block",
+  "item.simplelandclaims.example_item": "Example Item",
+
+  "simplelandclaims.configuration.title": "Simple Land Claims Configs",
+  "simplelandclaims.configuration.section.simplelandclaims.common.toml": "Simple Land Claims Configs",
+  "simplelandclaims.configuration.section.simplelandclaims.common.toml.title": "Simple Land Claims Configs",
+  "simplelandclaims.configuration.items": "Item List",
+  "simplelandclaims.configuration.logDirtBlock": "Log Dirt Block",
+  "simplelandclaims.configuration.magicNumberIntroduction": "Magic Number Text",
+  "simplelandclaims.configuration.magicNumber": "Magic Number"
+}

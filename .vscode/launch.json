@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - SimpleLandClaims",
+        "order": 0
+      },
+      "projectName": "SimpleLandClaims",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsimplelandclaims%%C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - SimpleLandClaims",
+        "order": 1
+      },
+      "projectName": "SimpleLandClaims",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsimplelandclaims%%C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - SimpleLandClaims",
+        "order": 2
+      },
+      "projectName": "SimpleLandClaims",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsimplelandclaims%%C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - SimpleLandClaims",
+        "order": 3
+      },
+      "projectName": "SimpleLandClaims",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dsimplelandclaims%%C:\\Users\\PaulO\\Desktop\\SimpleLandClaims\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
